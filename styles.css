@@ -1,0 +1,184 @@
+/* Google Fonts list */
+/* font-family: 'Lobster', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Acme', sans-serif; */
+
+h1,
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
+    color: #FFD485;
+}
+
+p,
+label,
+.col-lg-6 li {
+    font-family: 'Acme', sans-serif;
+    color: #605E5E;
+}
+
+#navbarTogglerDemo01 p {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+#navbarTogglerDemo01 img {
+    padding: 15px 15px 0;
+}
+
+.nav-item a {
+    margin: 0 80px 0;
+    font-size: 1.4rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.nav-item a:hover {
+    font-weight: bold;
+
+}
+
+.carousel {
+    width: 100%;
+    height: 750px;
+
+}
+
+
+.carousel-inner {
+
+    height: 100%;
+}
+
+
+.carousel-item {
+    /* background-size: cover;
+    background-position: 70% 70%; */
+    width: 50%;
+    height: 100%;
+}
+
+
+.carousel-item img {
+    height: 100% !important;
+    width: 50%;
+}
+
+#features {
+    padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.right-feature-box {
+    padding-top: 7%;
+
+}
+
+.icon {
+    color: #FFBAE3;
+    margin: 2rem;
+}
+
+
+.feature-box .fa-star {
+    transform: rotate(45deg);
+}
+
+.feature-box img {
+    height: 5.5rem;
+    width: 4rem;
+    margin-bottom: 7%;
+}
+
+/* Pricing Card */
+
+.card-body {
+    background-color: #FFF0F9;
+}
+
+.card-header h4 {
+    font-size: 2.7rem;
+}
+
+.card-header {
+    padding-top: 10% !important;
+    background-color: #FFF0F9 !important;
+    border-bottom: none !important;
+}
+
+.middle-card h1 {
+    padding-top: 39%;
+
+}
+
+.right-card h1 {
+    padding-top: 32%;
+
+}
+
+/* about me */
+
+#about-me {
+    margin: 5% 0 7%;
+    background-color: #FFF0F9;
+    text-align: le2t;
+}
+
+#about-me h1 {
+    padding: 2% 0 4%;
+}
+
+#about-me h3 {
+    padding: 2% 0 4%;
+}
+
+/* contact form */
+#contact-section {
+    background-color: #F8F9FA;
+    text-align: center;
+}
+
+.contact-form {
+    display: inline block;
+
+}
+
+.container button {
+    margin: 2% 40% 0;
+}
+
+.container textarea {
+    border-radius: 0.3rem;
+}
+
+.container input {
+    margin-top: 5%;
+    margin-right: 5%;
+    border-radius: 0.3rem;
+    padding-right: 5%;
+}
+
+.labels label {
+    margin-top: 5%;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+/* footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}

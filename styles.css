@@ -39,16 +39,43 @@ label,
 
 }
 
+
+/* Carousel */
+/* 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+ */
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: red;
+}
+
 .carousel {
     width: 100%;
-    height: 750px;
+    height: 700px;
 
 }
 
 
 .carousel-inner {
-
+    padding: 0 10% 0;
     height: 100%;
+    background-color: #F8F9FA;
 }
 
 
@@ -61,7 +88,9 @@ label,
 
 .carousel-item img {
     height: 100% !important;
-    width: 50%;
+    width: 60%;
+    margin: 5px;
+    border-radius: 1rem;
 }
 
 #features {

@@ -2,7 +2,11 @@
 /* font-family: 'Lobster', cursive;
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Acme', sans-serif; */
-
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
 h1,
 h3,
 h4 {

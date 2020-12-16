@@ -28,9 +28,57 @@ label,
     padding-left: 20px;
 }
 
-#navbarTogglerDemo01 img {
+#logo {
     padding: 15px 15px 0;
 }
+#logo:after {
+  
+    animation: shine 5s ease-in-out  infinite;
+    animation-fill-mode: forwards;  
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right, 
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+  
+  /* Hover state - trigger effect */
+  
+  
+  /* Active state */
+  
+  #logo:active:after {
+    opacity: 0;
+  }
+  
+  @keyframes shine{
+    10% {
+      opacity: 1;
+      top: -30%;
+      left: -30%;
+      transition-property: left, top, opacity;
+      transition-duration: 0.7s, 0.7s, 0.15s;
+      transition-timing-function: ease;
+    }
+    100% {
+      opacity: 0;
+      top: -30%;
+      left: -30%;
+      transition-property: left, top, opacity;
+    }
+  }
 
 .nav-item a {
     margin: 0 80px 0;
@@ -45,18 +93,7 @@ label,
 
 
 /* Carousel */
-/* 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    border: 1px solid black;
-    background-image: none;
-}
- */
+
 .carousel-control-next-icon:after {
     content: '>';
     font-size: 55px;
@@ -91,10 +128,11 @@ label,
 
 
 .carousel-item img {
-    height: 100% !important;
+    height: 60em;
     width: 60%;
     margin: 5px;
     border-radius: 1rem;
+    object-fit: cover;
 }
 
 #features {
@@ -179,10 +217,12 @@ label,
 
 #about-me h1 {
     padding: 2% 0 4%;
+    margin-left: 1em;
 }
 
 #about-me h3 {
     padding: 2% 0 4%;
+    margin-left: 1em;
 }
 
 /* contact form */
